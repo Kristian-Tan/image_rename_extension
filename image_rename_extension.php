@@ -1,16 +1,5 @@
 <?php
 
-/*
-Tool to rename picture file to its correct extension
-example: a JPEG formatted file was named mypicture.png
-this tool will detect such file recursively, then rename it to mypicture.jpg
-
-require phpgd to call exif_imagetype
-tested on windows, not tested on linux
-
-may pass directory name in -f option
-example: php image_rename_extension.php -fmyfolder
-*/
 $counter = 0;
 $errors = array();
 
